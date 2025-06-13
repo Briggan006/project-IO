@@ -39,7 +39,7 @@ jobs:
       with:
         args: >
           -Dsonar.projectKey=Briggan006_project-IO
-          -Dsonar.organization=Briggan006
+          -Dsonar.organization=briggan006
           -Dsonar.java.binaries=target
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
